@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="city">
+            <h2 id="odessa">Odessa</h2>
+            <p>Odessa is a city we all live in!</p>
+            <button onclick="onPressed('Odessa')">Press me!</button>
+        </div>
+
+        <div class="city">
+            <h2>Kiev</h2>
+            <p>Kiev is a capital of Ukraine</p>
+            <button onclick="onPressed('Kiev')">Press me!</button>
+        </div>
+
+        <div class="city">
+            <h2>Novgorod</h2>
+            <p>Some russian city idn</p>
+            <button onclick="onPressed('Novgorod')">Press me!</button>
+        </div>
+
+        <div class="city">
+            <h2>London</h2>
+            <p>Is a capital of GB</p>
+            <button onclick="onPressed('London')">Press me!</button>
+        </div>
+
+        <!-- <div id="main"></div> -->
+
+        <script>
+            function onPressed(city) {
+                alert("Button was pressed, the city is: " + city);
+            }
+
+            /* var cityData = [
+                { name: "Odessa", info: "Odessa is a city we all live in!" },
+                { name: "Kiev", info: "Odessa is a city we all live in!" },
+                { name: "Novgorod", info: "Odessa is a city we all live in!" },
+                { name: "London", info: "Odessa is a city we all live in!" },
+            ];
+
+            var mainDiv = document.getElementById("main");
+            cityData.forEach((city) => {
+                mainDiv.innerHTML += `<div class="city">
+                    <h2>${city.name}</h2>
+                    <p>${city.info}</p>
+                    <button onclick="onPressed('${city.name}')">Press me!</button>
+                </div>`;
+            }); */
+
+            // document.getElementById("odessa").innerHTML = "Not Odessa lol)";
+        </script>
+    </body>
+</html>

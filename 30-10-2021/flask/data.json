@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Morning Meeting w/ Team",
+        "type": "Work",
+        "date": "2021-10-18"
+    },
+    {
+        "name": "Retrospective w/ Team",
+        "type": "Work",
+        "date": "2021-10-18"
+    },
+    {
+        "date": "2021-10-19",
+        "name": "Evening Meeting w/ Team",
+        "type": "Other"
+    },
+    {
+        "date": "2021-10-19",
+        "name": "Evening Meeting w/ Team",
+        "type": "Other"
+    },
+    {
+        "date": "2021-10-19",
+        "name": "Evening Meeting w/ Team",
+        "type": "Other"
+    }
+]
